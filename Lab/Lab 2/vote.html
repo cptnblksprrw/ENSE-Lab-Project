@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+        <title>Note-Vote</title>
     </head>
     
     <body>
@@ -16,24 +20,24 @@
         </div>
 
         <div class="votewindow">
-            <input type="text" id="upvoted" name="upvoted" placeholder="This is a note you upvoted" readonly>
-            <button type="button">&#8593</button>
-            <button type="button">&#8595</button>
+            <input type="text" id="upvoted" placeholder="This is a note you upvoted" readonly>
+            <button type="button">&#8593;</button>
+            <button type="button">&#8595;</button>
             <small>1</small><br>
 
-            <input type="text" id="upvoted" name="upvoted" placeholder="This is a note you downvoted" readonly>
-            <button type="button">&#8593</button>
-            <button type="button">&#8595</button>
+            <input type="text" id="downvoted" placeholder="This is a note you downvoted" readonly>
+            <button type="button">&#8593;</button>
+            <button type="button">&#8595;</button>
             <small>-1</small><br>
 
-            <input type="text" id="upvoted" name="upvoted" placeholder="This is a note you haven't voted on yet" readonly>
-            <button type="button">&#8593</button>
-            <button type="button">&#8595</button>
+            <input type="text" id="unvoted" placeholder="This is a note you haven't voted on yet" readonly>
+            <button type="button">&#8593;</button>
+            <button type="button">&#8595;</button>
             <small></small><br>
 
-            <input type="text" id="upvoted" name="upvoted" placeholder="This is a note you submitted" readonly><small> 0</small><br>
+            <input type="text" id="submitted" placeholder="This is a note you submitted" readonly><small> 0</small><br>
 
-            <input type="text" id="upvoted" name="upvoted" placeholder="Enter your new note here"><br>
+            <input type="text" id="new-note" placeholder="Enter your new note here"><br>
 
             <button type="button">Add</button>
         </div>

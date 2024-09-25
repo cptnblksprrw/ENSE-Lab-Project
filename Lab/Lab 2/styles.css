@@ -7,7 +7,6 @@ h1{
 .mainwindow{
     text-align: center;
     background-color: AliceBlue;
-    border-style: rounded;
     width: 400px;
     box-shadow: 0px 5px 20px 1px;
     border-radius: .4em;
@@ -24,7 +23,6 @@ h1{
 .accountwindow{
     text-align: center;
     background-color: AliceBlue;
-    border-style: rounded;
     width: 250px;
     box-shadow: 0px 5px 20px 1px;
     border-radius: .4em;
@@ -41,7 +39,6 @@ h1{
 .votewindow{
     text-align: center;
     background-color: AliceBlue;
-    border-style: rounded;
     width: 400px;
     box-shadow: 0px 5px 20px 1px;
     border-radius: .4em;
