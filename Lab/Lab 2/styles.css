@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.mainwindow{
+    text-align: center;
+    background-color: AliceBlue;
+    border-style: rounded;
+    width: 400px;
+    box-shadow: 0px 5px 20px 1px;
+    border-radius: .4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    line-height: 1.8;
+    padding: 5px;
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.accountwindow{
+    text-align: center;
+    background-color: AliceBlue;
+    border-style: rounded;
+    width: 250px;
+    box-shadow: 0px 5px 20px 1px;
+    border-radius: .4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    line-height: 1.8;
+    padding: 5px;
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.votewindow{
+    text-align: center;
+    background-color: AliceBlue;
+    border-style: rounded;
+    width: 400px;
+    box-shadow: 0px 5px 20px 1px;
+    border-radius: .4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    line-height: 1.8;
+    padding: 5px;
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+
+}
+
+::placeholder{
+    font-size: 0.90em;
+}
